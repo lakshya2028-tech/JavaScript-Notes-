@@ -478,4 +478,4 @@ Respects every { } block.
 const
 -----
 Block Scoped
-Cannot be reassigned.
+// Cannot be reassigned. */
