@@ -20,3 +20,28 @@ console.log("to get last element fast modern")
 console.log(fruits.at(-2));
 
 //USING .AT CAN HELP YOU ACCESS NEGATIVE ARRAYS IN JS
+
+
+
+//for each
+let nums = [1,2,3,4,80];
+nums.forEach(n => {
+    console.log(n*4);
+});
+
+nums.forEach(( element , index, array ) => {
+    console.log(element, index);
+});
+
+let arr = [20, 60,50];
+arr.forEach((value, index , array) => {
+    console.log(  `value : ${value} , index : ${index} , array : ${array}` );
+
+});
+
+let chapter = [`chapter 1` , `chapter 2`,  `chapter 3`];
+chapter.forEach((element , index ) => {
+    console.log((element));
+});
+
+console.log(typeof(chapter[0]));
