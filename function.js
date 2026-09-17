@@ -408,7 +408,7 @@ to the top of their scope before execution.
 Only Function Declarations can be called before they are written.
 */
 
-sayHello();
+
 
 function sayHello() {
 
@@ -479,3 +479,27 @@ const
 -----
 Block Scoped
 // Cannot be reassigned. */
+
+
+//CALLBAK FUNCTIONS
+
+function  hello(callback){
+    console.log("hello dost");
+    callback();
+}
+
+function goodbye(){
+    console.log("goodbye");
+}
+
+hello(goodbye);
+
+
+let obj = {Name : 'laskhya',
+           age : 20,
+           issingle : true,
+           batch : 'cohort3.0'
+
+}
+
+console.log(obj.age);                                                   
